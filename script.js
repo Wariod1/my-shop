@@ -172,7 +172,7 @@ function updateOrder() {
   $("orderTotal").textContent = total ? money(total) + (unpriced ? " + more" : "") : "Your order";
   $("orderCount").textContent = count + (count === 1 ? " item" : " items");
   $("waOrder").href = waLink(
-    `Hello ${SHOP.name}, I’d like to order:\n${lines.join("\n")}${total ? `\nTotal so far: ${money(total)}` : ""}`
+    `Hello ${SHOP.name}, I’d like to order:\n${lines.join("\n")}${total ? `\nTotal is: ${money(total)}` : ""}`
   );
 }
 
