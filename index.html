@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>My Shop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero"><div class="wrap">
+  <h1 id="shopName">My Shop</h1>
+  <p id="welcome">Karibu! Everyday goods at fair prices. Pick what you need and send your order on WhatsApp.</p>
+  <a class="btn" id="waTop" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+</div></header>
+
+<div class="bar"><div class="wrap">
+  <input type="search" id="search" placeholder="Search products" aria-label="Search products">
+  <div class="chips" id="chips" role="group" aria-label="Categories"></div>
+</div></div>
+
+<main><div class="wrap" id="catalog"></div></main>
+
+<footer><div class="wrap">Prices in Kenyan shillings (KSh). Pay when you collect or receive your order.</div></footer>
+
+<div class="order" id="order" hidden>
+  <div><b id="orderTotal"></b><div id="orderCount" class="unit"></div></div>
+  <a class="btn" id="waOrder" href="#" target="_blank" rel="noopener">Send order on WhatsApp</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
