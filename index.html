@@ -7,13 +7,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="extras.css">
 </head>
 <body>
 
 <header class="hero"><div class="wrap">
-  <h1 id="shopName">My Shop</h1>
-  <p id="welcome">Karibu! Everyday goods at fair prices. Pick what you need and send your order on WhatsApp.</p>
+  <h1 id="shopName">Aiden</h1>
+  <p id="welcome">Karibu Everyday goods at fair prices. Pick what you need and send your order on WhatsApp.</p>
   <a class="btn" id="waTop" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
 </div></header>
 
@@ -24,42 +23,13 @@
 
 <main><div class="wrap" id="catalog"></div></main>
 
-<section class="info" id="info" hidden><div class="wrap"></div></section>
-
 <footer><div class="wrap">Prices in Kenyan shillings (KSh). Pay when you collect or receive your order.</div></footer>
 
 <div class="order" id="order" hidden>
   <div><b id="orderTotal"></b><div id="orderCount" class="unit"></div></div>
-  <a class="btn" id="waOrder" href="#" target="_blank" rel="noopener">Review and send order</a>
+  <a class="btn" id="waOrder" href="#" target="_blank" rel="noopener">Send order on WhatsApp</a>
 </div>
 
-<dialog id="dlg" aria-labelledby="dlgTitle">
-  <h2 id="dlgTitle">Your order</h2>
-  <ul class="dlg-items" id="dlgItems"></ul>
-  <p class="dlg-total" id="dlgTotal"></p>
-
-  <label>Your name
-    <input type="text" id="custName" autocomplete="name" placeholder="e.g. Amina">
-  </label>
-
-  <fieldset id="modeBox">
-    <legend>How will you get your order?</legend>
-    <label><input type="radio" name="mode" value="Pickup" checked> Pickup at the shop</label>
-    <label><input type="radio" name="mode" value="Delivery"> Delivery</label>
-  </fieldset>
-
-  <label id="locBox" hidden>Delivery location
-    <input type="text" id="custLoc" autocomplete="street-address" placeholder="e.g. Near the primary school, blue gate">
-  </label>
-
-  <p class="dlg-err" id="dlgErr" role="alert" hidden></p>
-  <div class="dlg-actions">
-    <button type="button" class="ghost" id="dlgClose">Back</button>
-    <a class="btn" id="dlgSend" href="#" target="_blank" rel="noopener">Send on WhatsApp</a>
-  </div>
-</dialog>
-
 <script src="script.js"></script>
-<script src="extras.js"></script>
 </body>
 </html>
