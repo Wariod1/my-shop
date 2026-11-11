@@ -1,7 +1,7 @@
 // ================= EDIT THIS PART =================
 const SHOP = {
-  name: "My Shop",
-  welcome: "Karibu! Everyday goods at fair prices. Pick what you need and send your order on WhatsApp.",
+  name: "Aiden",
+  welcome: "Karibu Everyday goods at fair prices. Pick what you need and send your order on WhatsApp.",
   whatsapp: "254716290030"   // country code + number, no + or spaces
 };
 
