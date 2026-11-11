@@ -2,7 +2,7 @@
 const SHOP = {
   name: "My Shop",
   welcome: "Karibu! Everyday goods at fair prices. Pick what you need and send your order on WhatsApp.",
-  whatsapp: "254700000000"   // country code + number, no + or spaces
+  whatsapp: "254716290030"   // country code + number, no + or spaces
 };
 
 // One line per product. Change, delete or add lines freely.
