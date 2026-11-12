@@ -9,10 +9,11 @@ const SHOP = {
 // price: null shows "Ask for price". Replace null with a number, e.g. price: 150
 const PRODUCTS = [
   // Flour
-  { cat: "Flour", name: "Raha Premium", unit: "2 kg", price: 200, icon: "🌾", image: "images/raha premium.jpg" },
+  { cat: "Flour", name: "Raha Premium", unit: "2 kg", price: 200, icon: "🌾", image: "images/rahapremium.jpg" },
   { cat: "Flour", name: "Ajab Ngano", unit: "1 kg", price: 100, icon: "🌾", image: "images/ajab.jpg" },
+  { cat: "Milk", name: "Mt kenya Kubwa", unit: "500Ml", price: 85, icon: "🌾", image: "images/kenya.jpg" },
   { cat: "Flour", name: "Ajab Ngano", unit: "2 kg", price: 190, icon: "🌾", image: "images/ajab.jpg" },
-  { cat: "Flour", name: "Pembe Ugali", unit: "2 kg", price: 85, icon: "🌽", image: "images/pembe-ugali-2kg.jpg" },
+  { cat: "Flour", name: "Pembe Ugali", unit: "2 kg", price: 85, icon: "🌽", image: "images/pembe.jpg" },
 
   // Drinks
   { cat: "Drinks", name: "Predator", unit: "400ml", price: 70, icon: "🥤", image: "images/predator.jpg" },
@@ -22,27 +23,27 @@ const PRODUCTS = [
   { cat: "Drinks", name: "Coke", unit: "1L", price: 100, icon: "🥤", image: "images/coke.jpg" },
   { cat: "Drinks", name: "fanta", unit: "1L", price: 100, icon: "🥤", image: "images/fanta.jpg" },
   { cat: "Drinks", name: "Ice", unit: "", price: 10, icon: "🧊", image: "images/ice.jpg" },
-  { cat: "Drinks", name: "Glacier Water", unit: "1.5 litres", price: 50, icon: "💧", image: "images/glacier-1-5l.jpg" },
-  { cat: "Drinks", name: "Glacier Water", unit: "5 litres", price: 120, icon: "💧", image: "images/glacier-5l.jpg" },
-  { cat: "Drinks", name: "Upclean Water", unit: "500 ml", price: 20, icon: "💧", image: "images/upclean-500ml.jpg" },
+  { cat: "Drinks", name: "Glacier Water", unit: "1.5 litres", price: 50, icon: "💧", image: "images/glacier.jpg" },
+  { cat: "Drinks", name: "Glacier Water", unit: "5 litres", price: 120, icon: "💧", image: "images/glacier.jpg" },
+  { cat: "Drinks", name: "Upclean Water", unit: "500 ml", price: 20, icon: "💧", image: "images/upclean.jpg" },
 
   // Snacks and bread
   { cat: "Snacks & bread", name: "Ringoz", unit: "", price: 10, icon: "🍪", image: "images/ringoz.jpg" },
   { cat: "Snacks & bread", name: "Bites", unit: "", price: 10, icon: "🍪", image: "images/bites.jpg" },
   { cat: "Snacks & bread", name: "Princess", unit: "", price: 10, icon: "🍪", image: "images/princess.jpg" },
   { cat: "Snacks & bread", name: "Supaloaf", unit: "bread", price: 65, icon: "🍞", image: "images/supaloaf.jpg" },
-  { cat: "Snacks & bread", name: "BB", unit: "bread", price: 65, icon: "🍞", image: "images/bb bread.jpg" },
+  { cat: "Snacks & bread", name: "BB", unit: "bread", price: 65, icon: "🍞", image: "images/bbbread.jpg" },
 
   // Groceries
-  { cat: "Groceries", name: "Salt", unit: "500 g", price: 25, icon: "🧂", image: "images/salt-500g.jpg" },
-  { cat: "Groceries", name: "Ketepa Tea Leaves", unit: "50 g", price: 25, icon: "🍵", image: "images/ketepa-50g.jpg" },
-  { cat: "Groceries", name: "Ketepa Tea Leaves", unit: "15 g", price: 10, icon: "🍵", image: "images/ketepa-15g.jpg" },
+  { cat: "Groceries", name: "Salt", unit: "500 g", price: 25, icon: "🧂", image: "images/salt.jpg" },
+  { cat: "Groceries", name: "Ketepa Tea Leaves", unit: "50 g", price: 25, icon: "🍵", image: "images/ketepa.jpg" },
+  { cat: "Groceries", name: "Ketepa Tea Leaves", unit: "15 g", price: 10, icon: "🍵", image: "images/ketepa.jpg" },
 
   // Baby and home
-  { cat: "Baby & home", name: "Softcare Diapers", unit: "", price: 20, icon: "👶", image: "images/softcare-diapers.jpg" },
-  { cat: "Baby & home", name: "Kisskid Diapers", unit: "", price: 15, icon: "👶", image: "images/kisskid-diapers.jpg" },
-  { cat: "Baby & home", name: "Tulip Tissue", unit: "", price: 20, icon: "🧻", image: "images/tulip-tissue.jpg" },
-  { cat: "Baby & home", name: "Pekee Tissue", unit: "", price: 30, icon: "🧻", image: "images/pekee-tissue.jpg" },
+  { cat: "Baby & home", name: "Softcare Diapers", unit: "", price: 20, icon: "👶", image: "images/softcare.jpg" },
+  { cat: "Baby & home", name: "Kisskid Diapers", unit: "", price: 15, icon: "👶", image: "images/kisskid.jpg" },
+  { cat: "Baby & home", name: "Tulip Tissue", unit: "", price: 20, icon: "🧻", image: "images/tulip.jpg" },
+  { cat: "Baby & home", name: "Pekee Tissue", unit: "", price: 30, icon: "🧻", image: "images/pekee.jpg" },
 
   // Detergents
   { cat: "Detergents", name: "Omo", unit: "", price: 10, icon: "🧺", image: "images/omo.jpg" },
@@ -51,8 +52,8 @@ const PRODUCTS = [
   { cat: "Detergents", name: "Ariel", unit: "", price: 10, icon: "🧺", image: "images/ariel.jpg" },
 
   // Soap
-  { cat: "Soap", name: "Classic Soap", unit: "", price: 40, icon: "🧼", image: "images/classic-soap-40.jpg" },
-  { cat: "Soap", name: "Classic Soap", unit: "", price: 30, icon: "🧼", image: "images/classic-soap-30.jpg" }
+  { cat: "Soap", name: "Classic Soap", unit: "", price: 40, icon: "🧼", image: "images/soap.jpg" },
+  { cat: "Soap", name: "Classic Soap", unit: "", price: 30, icon: "🧼", image: "images/soap.jpg" }
 ];
 // ================= END OF EDIT PART =================
 
